@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: springboot
-          image: dhivkk/eksdocker:eksdocker
+          image: dhivkk/eksdocker:eksdockerimg
           ports:
             - containerPort: 8080
           env:
